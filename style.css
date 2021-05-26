@@ -1,0 +1,84 @@
+/* SELETTORE {
+  proprietà: valore;
+  proprietà: valore;
+} */
+
+/* background style */
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:left top;
+}
+
+
+/* proprietà logo */
+.logobox{
+  text-align: center
+}
+
+.logo{
+  width: 200px;
+  margin: auto;
+  position:relative;
+  left: inherit;
+}
+
+/* container opaco esterno (ho usato background color per via di inheritance di opacity) */
+.container{
+  margin: auto;
+  border-radius: 25px;
+  background-position: left top;
+  background-color: rgba(0,0,0,0.5);
+  padding: 100px;
+  width: 800px;
+  height: 600px;
+  margin-top:20px;
+}
+
+/* stile titolo */
+.titolo{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #05c500;
+  position relative;
+  top: 20px
+}
+
+/* proprietà div booking delle risorse */
+.booking{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#05c500;
+  background-size: contain;
+  height: 40px;
+  position: relative;
+  bottom: 20px;
+}
+.button{
+ margin: 2px
+}
+
+/* proprietà progress bar */
+.battery{
+  -webkit-appearance:none;
+  width:60%;
+  height:25px;
+  border-radius: 25px;
+  order:0px solid #ccc;
+}
+
+
+/* proprietà testo */
+.testobig{
+  font-family: 'Poppins', sans-serif;
+  font-size:20px;
+  color:white;
+}
+
+.testosmall{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color:white;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Coding Challenge</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="bed">
+
+
+    <!-- Container esterno -->
+      <div class="container">
+        <div class="logobox">
+          <img src="logo.png" class="logo">
+        </div>
+          <div class="titolo">
+          <h1>Taking Booleaners from A to B</h1>
+        </div>
+
+    <!-- inizio contenuto prenotazione monopattini -->
+        <div class="booking">
+          <input class="button" type="submit" name="Prenota" value="Prenota" >
+          <input class="button" type="submit" name="Prenota" value="Termina Prenotazione">
+          <input class="button" type="submit" name="prenota" value="Accendi Luci">
+        </div>
+
+    <!-- stato ricarica monopattino 1-->
+        <div class="box gino22">
+          <input type="checkbox" id="gino22" required=checked>
+          <label for="gino22"><a class="testobig"><strong>Monopattino Gino22</strong></a></label><br>
+          <div>
+            <a class="testosmall">↦ Via Guadalametri - a 220 metri da te</a>
+          </div>
+          <label for="battery"><a class="testosmall">Stato carica:</a></label><br>
+          <progress id="battery" class="battery gino22" value="50" max="100">50%</progress><br>
+        </div>
+
+    <!-- stato ricarica monopattino 2-->
+        <div class="box mike24">
+          <input type="checkbox" id="mike24" required=checked>
+          <label for="mike24"><a class="testobig"><strong>Monopattino Mike24</strong></a></label><br>
+          <div>
+            <a class="testosmall">↦ Via Ricciardoni - a 420 metri da te</a>
+          </div>
+          <label for="battery"><a class="testosmall">Stato carica:</a></label><br>
+          <progress id="battery" class="battery mike24" value="100" max="100">100%</progress><br>
+        </div>
+
+    <!-- stato ricarica monopattino 3-->
+        <div class="box fede154">
+          <input type="checkbox" id="fede154" required=checked>
+          <label for="fede154"><a class="testobig"><strong>Monopattino Fede154</strong></a></label><br>
+          <div>
+            <a class="testosmall">↦ Via Mentarini - a 490 metri da te</a>
+          </div>
+          <label for="battery"><a class="testosmall">Stato carica:</a></label><br>
+          <progress id="battery" class="battery fede154" value="25" max="100">25%</progress><br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
